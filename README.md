@@ -29,3 +29,11 @@ This script is based on an example provided by Thomas Rast on the
 Git list [1]:
 
 [1] http://thread.gmane.org/gmane.comp.version-control.git/124807
+
+>* 配置（config）
+```sh
+    git config --global diff.tool meld #配置默认的difftool
+    git config --global merge.tool meld #配置默认的mergetool
+    sudo ln -s /home/yourpath/git-diffall /usr/local/bin/git-diffall #通过软链接建立系统命令
+    git config --global alias.diffall git-diffall #添加git别名执行git-diffall功能
+```
