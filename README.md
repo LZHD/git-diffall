@@ -7,6 +7,7 @@ the 'diff.tool' or 'merge.tool' configuration option to be set.
 This script is compatible with most common forms used to specify a
 range of revisions to diff:
 
+```text
   1. git diffall: shows diff between working tree and staged changes
   2. git diffall --cached [<commit>]: shows diff between staged
      changes and HEAD (or other named commit)
@@ -29,6 +30,7 @@ This script is based on an example provided by Thomas Rast on the
 Git list [1]:
 
 [1] http://thread.gmane.org/gmane.comp.version-control.git/124807
+```
 
 >* 配置（config）
 ```sh
